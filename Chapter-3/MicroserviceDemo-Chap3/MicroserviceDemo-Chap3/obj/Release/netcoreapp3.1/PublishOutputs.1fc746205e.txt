@@ -1,0 +1,8 @@
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\MicroserviceDemo-Chap3.exe
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\wwwroot\DemoSources\SampleVideo.mp4
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\appsettings.Development.json
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\appsettings.json
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\MicroserviceDemo-Chap3.dll
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\MicroserviceDemo-Chap3.deps.json
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\MicroserviceDemo-Chap3.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-3\MicroserviceDemo-Chap3\MicroserviceDemo-Chap3\published\MicroserviceDemo-Chap3.pdb
