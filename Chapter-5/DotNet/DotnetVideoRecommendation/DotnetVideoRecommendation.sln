@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetVideoRecommendation", "DotnetVideoRecommendation\DotnetVideoRecommendation.csproj", "{D6852512-88F9-4685-89F2-80BC0DCA4E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{4E685BF0-7750-4CA7-8088-5C2CB196EBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6852512-88F9-4685-89F2-80BC0DCA4E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6852512-88F9-4685-89F2-80BC0DCA4E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6852512-88F9-4685-89F2-80BC0DCA4E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6852512-88F9-4685-89F2-80BC0DCA4E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E685BF0-7750-4CA7-8088-5C2CB196EBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E685BF0-7750-4CA7-8088-5C2CB196EBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E685BF0-7750-4CA7-8088-5C2CB196EBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E685BF0-7750-4CA7-8088-5C2CB196EBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA4520B3-185A-4F9D-BCDD-8BA827A227E2}
+	EndGlobalSection
+EndGlobal

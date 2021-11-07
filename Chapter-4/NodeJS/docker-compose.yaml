@@ -1,0 +1,39 @@
+version: '3'
+services:
+
+ nodejs-video-streaming:
+  image: nodejs-video-streaming
+  build:
+   context: ./nodejs-video-streaming
+   dockerfile: Dockerfile
+  container_name: nodejs-video-streaming
+  ports:
+   - "3001:80"
+  environment:
+   - PORT=80
+   - VIDEO_STORAGE_HOST=nodejs-video-storage
+   - VIDEO_STORAGE_PORT=80
+   - DBHOST=mongodb://mongodb-video:27017
+   - DBNAME=video-streaming
+  restart: "no"
+
+ nodejs-video-storage:
+  image: nodejs-video-storage
+  build:
+   context: ./nodejs-video-storage
+   dockerfile: Dockerfile
+  container_name: nodejs-video-storage
+  ports:
+   - "3002:80"
+  environment:
+   - PORT=80
+   - STORAGE_ACCOUNT_NAME=trungphanstorageaccount
+   - STORAGE_ACCESS_KEY=aOuheOIc996RZKCS7LSIIp2R6N7ErZ5WHQikp3XbA4PtUwPb9P8JnfO++QRjZyd/MdP8zNiWgyJ3fbRZDV76WA==
+  restart: "no"
+
+ mongodb-video:
+  image: mongo:4.2.8
+  container_name: mongodb-video
+  ports:
+  - "4999:27017"
+  restart: always

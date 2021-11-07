@@ -1,0 +1,85 @@
+version: '3'
+services:
+
+ nodejs-video-streaming:
+  image: nodejs-video-streaming
+  build: 
+   context: ./nodejs-video-streaming
+   dockerfile: Dockerfile-dev
+  container_name: nodejs-video-streaming
+  volumes:
+   - /tmp/nodejs-video-streaming/npm-cache:/root/.npm:z
+   - ./nodejs-video-streaming/src:/usr/src/app/src:z
+   - ./nodejs-video-streaming/videos:/usr/src/app/videos:z
+  ports:
+   - "3001:80"
+  environment:
+   - PORT=80
+   - RABBIT=amqp://guest:guest@rabbit:5672
+   - NODE_ENV=development
+  depends_on:
+   - rabbit
+  restart: "no"
+
+ nodejs-history:
+  image: nodejs-history
+  build: 
+   context: ./nodejs-history
+   dockerfile: Dockerfile-dev
+  container_name: nodejs-history
+  volumes:
+   - /tmp/nodejs-history/npm-cache:/root/.npm:z
+   - ./nodejs-history/src:/usr/src/app/src:z
+  ports:
+   - "3003:80"
+  environment:
+   - PORT=80
+   - RABBIT=amqp://guest:guest@rabbit:5672
+   - NODE_ENV=development
+   - DBHOST=mongodb://mongodb-video:27017
+   - DBNAME=video-streaming
+  depends_on:
+   - mongodb-video
+   - rabbit
+  restart: "no"
+
+ nodejs-reccommendation:
+  image: nodejs-reccommendation
+  build: 
+   context: ./nodejs-reccommendation
+   dockerfile: Dockerfile-dev
+  container_name: nodejs-reccommendation
+  volumes:
+   - /tmp/nodejs-reccommendation/npm-cache:/root/.npm:z
+   - ./nodejs-reccommendation/src:/usr/src/app/src:z
+  ports:
+   - "3004:80"
+  environment:
+   - PORT=80
+   - RABBIT=amqp://guest:guest@rabbit:5672
+   - NODE_ENV=development
+   - DBHOST=mongodb://mongodb-video:27017
+   - DBNAME=video-streaming
+  depends_on:
+   - mongodb-video
+   - rabbit
+  restart: "no"
+
+ mongodb-video:
+  image: mongo:4.2.8
+  container_name: mongodb-video
+  ports:
+  - "4999:27017"
+  restart: always
+
+
+ rabbit:
+  image: rabbitmq:3.8.5-management
+  container_name: rabbit
+  ports:
+   - "5672:5672"
+   - "15672:15672"
+  expose:
+   - "5672"
+   - "15672"
+  restart: always

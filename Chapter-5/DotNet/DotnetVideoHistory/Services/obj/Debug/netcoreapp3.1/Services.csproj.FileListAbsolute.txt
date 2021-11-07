@@ -1,0 +1,10 @@
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\bin\Debug\netcoreapp3.1\Services.dll
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\bin\Debug\netcoreapp3.1\Services.pdb
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.csproj.AssemblyReference.cache
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.dll
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoHistory\Services\obj\Debug\netcoreapp3.1\Services.pdb

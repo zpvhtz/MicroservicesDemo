@@ -1,0 +1,67 @@
+version: '3'
+services:
+
+ netcore-video-streaming:
+  image: netcore-video-streaming
+  build:
+   context: ./DotnetVideoStreaming
+   dockerfile: ./DotnetVideoStreaming/Dockerfile
+  container_name: netcore-video-streaming
+  ports:
+   - "5001:80"
+  environment:
+   - PORT=80
+   - RABBIT=amqp://guest:guest@rabbit:5672
+  depends_on:
+   - rabbit
+  restart: "no"
+ 
+ netcore-video-history:
+  image: netcore-video-history
+  build:
+   context: ./DotnetVideoHistory
+   dockerfile: ./DotnetVideoHistory/Dockerfile
+  container_name: netcore-video-history
+  ports:
+   - "5003:80"
+  environment:
+   - PORT=80
+   - RABBIT=amqp://guest:guest@rabbit:5672
+  depends_on:
+   - rabbit
+  restart: on-failure
+
+ netcore-video-recommendation:
+  image: netcore-video-recommendation
+  build:
+   context: ./DotnetVideoRecommendation
+   dockerfile: ./DotnetVideoRecommendation/Dockerfile
+  container_name: netcore-video-recommendation
+  ports:
+   - "5004:80"
+  environment:
+   - PORT=80
+   - RABBIT=amqp://guest:guest@rabbit:5672
+  depends_on:
+   - rabbit
+  restart: on-failure
+
+ sqlserver-video:
+  image: mcr.microsoft.com/mssql/server:2017-latest
+  container_name: sqlserver-video
+  ports:
+  - "5999:1433"
+  environment:
+   ACCEPT_EULA: "Y"
+  restart: always
+
+ rabbit:
+  image: rabbitmq:3.8.5-management
+  container_name: rabbit
+  ports:
+   - "5672:5672"
+   - "15672:15672"
+  expose:
+   - "5672"
+   - "15672"
+  restart: always

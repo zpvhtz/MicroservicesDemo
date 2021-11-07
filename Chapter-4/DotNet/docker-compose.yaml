@@ -1,0 +1,38 @@
+version: '3'
+services:
+
+ netcore-video-streaming:
+  image: netcore-video-streaming
+  build:
+   context: ./DotnetVideoStreaming
+   dockerfile: ./DotnetVideoStreaming/Dockerfile
+  container_name: netcore-video-streaming
+  ports:
+   - "5001:80"
+  environment:
+   - PORT=80
+  depends_on:
+   - sqlserver-video
+  restart: "no"
+ 
+ netcore-video-storage:
+  image: netcore-video-storage
+  build:
+   context: ./DotnetVideoStorage
+   dockerfile: ./DotnetVideoStorage/Dockerfile
+  container_name: netcore-video-storage
+  ports:
+  - "5002:80"
+  environment:
+  - PORT=80
+  - AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=trungphanstorageaccount;AccountKey=aOuheOIc996RZKCS7LSIIp2R6N7ErZ5WHQikp3XbA4PtUwPb9P8JnfO++QRjZyd/MdP8zNiWgyJ3fbRZDV76WA==;EndpointSuffix=core.windows.net
+  restart: "no"
+
+ sqlserver-video:
+  image: mcr.microsoft.com/mssql/server:2017-latest
+  container_name: sqlserver-video
+  ports:
+  - "5999:1433"
+  environment:
+   ACCEPT_EULA: "Y"
+  restart: always
