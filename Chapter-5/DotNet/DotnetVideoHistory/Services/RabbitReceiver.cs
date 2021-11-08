@@ -19,8 +19,8 @@ namespace Services
         public RabbitReceiver()
         {
             //_messageService = messageService;
-            //InitializeRabbitMqListener();
-            InitializeRabbitMqListenerExchange();
+            InitializeRabbitMqListener();
+            //InitializeRabbitMqListenerExchange();
         }
 
         //Single message

@@ -32,14 +32,7 @@ namespace DotnetVideoStreaming.Controllers
 
             //FileStreamResult response;
             using (var client = new HttpClient())
-            {
-                //client.BaseAddress = new Uri("https://localhost:5002/");
-                //client.BaseAddress = new Uri("http://localhost:5002/");
-                client.BaseAddress = new Uri("http://host.docker.internal:5002");
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                var response = await client.GetAsync($"/video/getvideo?path={video.Path}");
-                //var response = await client.GetStreamAsync($"/video/getvideo?path={video.Path}");
+            {//var response = await client.GetStreamAsync($"/video/getvideo?path={video.Path}");
 
                 //try
                 //{
@@ -52,6 +45,14 @@ namespace DotnetVideoStreaming.Controllers
                 //{
                 //    throw new Exception(ex.Message);
                 //}
+
+                //client.BaseAddress = new Uri("https://localhost:5002/");
+                //client.BaseAddress = new Uri("http://localhost:5002/");
+                client.BaseAddress = new Uri("http://host.docker.internal:5002");
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var response = await client.GetAsync($"/video/getvideo?path={video.Path}");
+
                 if (response.IsSuccessStatusCode)
                 {
                     try

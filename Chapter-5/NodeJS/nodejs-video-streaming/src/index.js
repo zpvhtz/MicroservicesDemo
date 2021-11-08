@@ -34,8 +34,8 @@ function sendViewedMessage(messageChannel, videoPath) {
 
     const msg = { videoPath: videoPath };
     const jsonMsg = JSON.stringify(msg);
-    // messageChannel.publish("", "viewed", Buffer.from(jsonMsg)); // Queued
-    messageChannel.publish("viewed", "", Buffer.from(jsonMsg)); // Publish message to the "viewed" exchange.
+    messageChannel.publish("", "viewed", Buffer.from(jsonMsg)); // Queued
+    // messageChannel.publish("viewed", "", Buffer.from(jsonMsg)); // Publish message to the "viewed" exchange.
 }
 
 //

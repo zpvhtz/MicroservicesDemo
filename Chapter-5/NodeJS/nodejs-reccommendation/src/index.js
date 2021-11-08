@@ -36,7 +36,7 @@ function setupHandlers(app, db, messageChannel) {
     const videosCollection = db.collection("videos");
 
     function consumeViewedMessage(msg) {
-        console.log("Received a 'viewed' message in history");
+        console.log("Received a 'viewed' message in recommendation");
 
         const parsedMsg = JSON.parse(msg.content.toString());
        
@@ -60,20 +60,20 @@ function setupHandlers(app, db, messageChannel) {
     // });
 
     //Queue
-    // return messageChannel.assertQueue("viewed", {}).then(() => {
-    //     return messageChannel.consume("viewed", consumeViewedMessage);
-    // });
+    return messageChannel.assertQueue("viewed", {}).then(() => {
+        return messageChannel.consume("viewed", consumeViewedMessage);
+    });
 
     //Exchange
-    return messageChannel.assertExchange("viewed", "fanout").then(() => {
-        return messageChannel.assertQueue("", { exclusive: true });
-    }).then(response => {
-        const queueName = response.queue;
-        console.log(`Created queue ${queueName}, binding it to "viewed" exchange.`);
-        return messageChannel.bindQueue(queueName, "viewed", "").then(() => {
-            return messageChannel.consume(queueName, consumeViewedMessage);
-        });
-    });
+    // return messageChannel.assertExchange("viewed", "fanout").then(() => {
+    //     return messageChannel.assertQueue("", { exclusive: true });
+    // }).then(response => {
+    //     const queueName = response.queue;
+    //     console.log(`Created queue ${queueName}, binding it to "viewed" exchange.`);
+    //     return messageChannel.bindQueue(queueName, "viewed", "").then(() => {
+    //         return messageChannel.consume(queueName, consumeViewedMessage);
+    //     });
+    // });
 }
 
 function startHttpServer(db, messageChannel) {
