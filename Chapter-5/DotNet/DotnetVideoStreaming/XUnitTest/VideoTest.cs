@@ -2,6 +2,7 @@
 using Data.Models;
 using Microsoft.EntityFrameworkCore;
 using Services;
+using System;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -24,20 +25,41 @@ namespace XUnitTest
             _videoService = new VideoService(_videoRepository);
         }
 
-        [Fact]
+        [Trait("Video Test", "Adding")]
+        [Fact(DisplayName = "Adding Video xUT")]
         public async Task TestAddVideoAsync()
         {
-            //Arrange
-            var path = "SampleVideoPath.mp4";
+            //Arrange: Set up the any variables and objects necessary.
+            var path = "SampleVideoPathTest.mp4";
 
-            //Act
-            await _videoService.AddVideoAsync(path);
-            var video = await _videoRepository.TableNoTracking.LastOrDefaultAsync();
+            //Act: Call the method being tested, passing any parameters needed
+            var video = await _videoService.AddVideoAsync(path);
 
-            //Assert
+            //Assert: Verify expected results
+            Assert.NotNull(video);
+            Assert.NotEmpty(video.Path);
+            Assert.Equal(1, video.Id);
+        }
+
+        [Trait("Video Test", "Updating")]
+        [Fact(DisplayName = "Updating Video xUT")]
+        //[Theory(DisplayName = "Updating Video xUT")]
+        //[InlineData(2)]
+        //public async Task TestUpdateVideoAsync(int videoId)
+        public async Task TestUpdateVideoAsync()
+        {
+            //Arange: Set up the any variables and objects necessary.
+            var path = "SampleVideoPathTest.mp4 edited!";
+
+            //Act: Call the method being tested, passing any parameters needed
+            var video = await _videoService.UpdateVideoAsync(1, path);
+
+            //Assert: Verify expected results
             Assert.NotNull(video);
             Assert.NotEmpty(video.Path);
             Assert.Equal(path, video.Path);
+
+            Exception ex = await Assert.ThrowsAsync<ArgumentNullException>(() => _videoService.UpdateVideoAsync(3, path));
         }
     }
 }

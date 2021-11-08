@@ -8,7 +8,9 @@ namespace Services
     {
         Task<List<Videos>> GetAllVideosAsync();
         Task<Videos> GetVideoByIdAsync(int videoId);
-        Task AddVideoAsync(string path);
-        Task UpdateVideoAsync(int id, string path);
+        string GetVideoPathById(int videoId);
+        Task<string> GetVideoPathByIdAsync(int videoId);
+        Task<Videos> AddVideoAsync(string path);
+        Task<Videos> UpdateVideoAsync(int id, string path);
     }
 }

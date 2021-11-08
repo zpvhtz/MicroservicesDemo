@@ -7,9 +7,9 @@ using System.Collections.Generic;
 
 namespace Data.Models
 {
-    public partial class Videos
+    public partial class Videos : BaseEntity
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Path { get; set; }
     }
 }

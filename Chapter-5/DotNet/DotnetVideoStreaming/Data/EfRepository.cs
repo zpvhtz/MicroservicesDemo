@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
         private readonly VideoStreamingContext _context;
         
@@ -31,6 +31,18 @@ namespace Data
 
         public virtual IQueryable<TEntity> Table => Entities;
         public virtual IQueryable<TEntity> TableNoTracking => Entities.AsNoTracking();
+
+        public virtual async Task<TEntity> GetByIdAsync(int id)
+        {
+            var entity = await Table.Where(p => p.Id == id).FirstOrDefaultAsync();
+
+            if (entity == null)
+            {
+                throw new ArgumentNullException(nameof(entity));
+            }
+
+            return entity;
+        }
 
         public virtual async Task AddAsync(TEntity entity)
         {

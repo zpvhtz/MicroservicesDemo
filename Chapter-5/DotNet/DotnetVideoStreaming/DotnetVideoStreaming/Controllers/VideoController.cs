@@ -29,8 +29,15 @@ namespace DotnetVideoStreaming.Controllers
         [HttpGet("AddVideoByPath")]
         public async Task<ActionResult> AddVideoByPath(string path)
         {
-            await _videoService.AddVideoAsync(path);
-            return Ok();
+            var video = await _videoService.AddVideoAsync(path);
+            return Ok(video);
+        }
+
+        [HttpGet("UpdateVideoById")]
+        public async Task<ActionResult> UpdateVideoById(int id, string path)
+        {
+            var video = await _videoService.UpdateVideoAsync(id, path);
+            return Ok(video);
         }
 
         [HttpGet("GetVideo")]
