@@ -9,7 +9,6 @@ namespace Data.Models
 {
     public partial class Videos : BaseEntity
     {
-        //public int Id { get; set; }
         public string Path { get; set; }
     }
 }

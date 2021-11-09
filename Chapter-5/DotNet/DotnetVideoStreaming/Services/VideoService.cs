@@ -68,9 +68,6 @@ namespace Services
 
         public async Task<Videos> UpdateVideoAsync(int id, string path)
         {
-            //var video = await _videoRepository.Table.Where(p => p.Id == id)
-            //                                        .FirstOrDefaultAsync();
-
             var video = await _videoRepository.GetByIdAsync(id);
 
             if (video == null)

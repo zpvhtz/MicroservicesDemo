@@ -146,5 +146,4 @@ E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStrea
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.pdb
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.genruntimeconfig.cache
-E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\Castle.Core.dll
-E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\Moq.dll
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.csproj.CopyComplete

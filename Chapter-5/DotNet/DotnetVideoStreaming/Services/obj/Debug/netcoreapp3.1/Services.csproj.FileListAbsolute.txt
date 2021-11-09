@@ -29,3 +29,4 @@ E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Services\obj\Deb
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Services\obj\Debug\netcoreapp3.1\Services.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Services\obj\Debug\netcoreapp3.1\Services.pdb
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Services\obj\Debug\netcoreapp3.1\Services.genruntimeconfig.cache
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete

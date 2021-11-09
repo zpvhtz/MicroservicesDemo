@@ -70,10 +70,6 @@
               "target": "Package",
               "version": "[3.1.20, )"
             },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.1, )"
-            },
             "RabbitMQ.Client": {
               "target": "Package",
               "version": "[6.2.2, )"
@@ -165,10 +161,6 @@
               "target": "Package",
               "version": "[1.11.1, )"
             },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.1, )"
-            },
             "RabbitMQ.Client": {
               "target": "Package",
               "version": "[6.2.2, )"
@@ -255,10 +247,6 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[3.1.20, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.1, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

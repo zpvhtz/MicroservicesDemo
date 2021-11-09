@@ -58,8 +58,6 @@ namespace XUnitTest
             Assert.NotNull(video);
             Assert.NotEmpty(video.Path);
             Assert.Equal(path, video.Path);
-
-            Exception ex = await Assert.ThrowsAsync<ArgumentNullException>(() => _videoService.UpdateVideoAsync(3, path));
         }
     }
 }

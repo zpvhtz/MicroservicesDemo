@@ -61,7 +61,7 @@ namespace XUnitTest
             //Assert: Verify expected results
             Assert.NotNull(video);
             Assert.NotEmpty(video.Path);
-            Assert.Equal(expectedVideoPath, video.Path);
+            Assert.Equal("SampleVideoPathMockTest.mp4", video.Path);
             Assert.Equal(expectedVideoId, video.Id);
         }
     }

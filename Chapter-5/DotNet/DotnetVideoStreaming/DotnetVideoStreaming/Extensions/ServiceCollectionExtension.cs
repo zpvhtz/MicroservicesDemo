@@ -13,16 +13,6 @@ namespace DotnetVideoStreaming.Extensions
         {
             services.ConfigureCors();
             services.AddDbContext<VideoStreamingContext>(c => c.UseSqlServer(configuration.GetConnectionString("MainConnection")));
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo
-            //    {
-            //        Version = "v1",
-            //        Title = "ToDo API",
-            //        Description = "A simple example ASP.NET Core Web API",
-            //        TermsOfService = new Uri("https://example.com/terms"),
-            //    });
-            //});
             services.ConfigureDependencies();
         }
 

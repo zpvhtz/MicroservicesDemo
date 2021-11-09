@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Data.Models;
+using Microsoft.AspNetCore.Mvc;
 using Services;
 using System;
 using System.Net.Http;
@@ -47,13 +48,11 @@ namespace DotnetVideoStreaming.Controllers
 
             if (video == null)
             {
-                throw new Exception("Video not found");
+                throw new ArgumentException("Video not found");
             }
 
             using (var client = new HttpClient())
             {
-                //client.BaseAddress = new Uri("https://localhost:5002/");
-                //client.BaseAddress = new Uri("http://localhost:5002/");
                 client.BaseAddress = new Uri("http://host.docker.internal:5002");
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -66,18 +65,45 @@ namespace DotnetVideoStreaming.Controllers
                     {
                         var fileStreamArray = await response.Content.ReadAsByteArrayAsync();
                         return new FileContentResult(fileStreamArray, "video/mp4");
-                        //return Ok(await response.Content.ReadAsStringAsync());
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception(ex.Message);
+                        throw new ArgumentException(ex.Message);
                     }
                 }
                 else
                 {
-                    throw new Exception("Cannot connect via url");
+                    throw new ArgumentException("Cannot connect via url");
                 }
             }
+        }
+
+        [HttpGet("TestSonarScannerCodeSmell")]
+        public async Task<ActionResult> TestSonarScanner()
+        {
+            string unusedString = "This is a string";
+
+            return Ok();
+        }
+
+        [HttpGet("TestSonarScannerBugs1")]
+        public ActionResult TestSonarScannerBugs1()
+        {
+            Videos video = null;
+            video.Path = "SamplePath";
+
+            return Ok(video);
+        }
+
+        [HttpGet("TestSonarScannerBugs2")]
+        public ActionResult TestSonarScannerBugs2()
+        {
+            var alwaysFalse = false;
+
+            if (alwaysFalse)
+                alwaysFalse = true;
+
+            return Ok();
         }
     }
 }
