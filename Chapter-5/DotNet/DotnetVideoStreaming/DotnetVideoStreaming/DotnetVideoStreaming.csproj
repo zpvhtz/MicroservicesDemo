@@ -22,5 +22,17 @@
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 
+<ItemGroup> 
+  <Content Include="videos\**"> 
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> 
+  </Content>
+  <Content Include="EmptyFolder\**"> 
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> 
+  </Content> 
+</ItemGroup>
+	
+<ItemGroup>
+  <Folder Include="EmptyFolder\" />
+</ItemGroup>
 
 </Project>

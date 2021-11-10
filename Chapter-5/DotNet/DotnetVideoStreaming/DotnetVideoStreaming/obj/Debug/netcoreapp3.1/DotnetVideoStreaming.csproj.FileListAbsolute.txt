@@ -146,4 +146,16 @@ E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStrea
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.pdb
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.genruntimeconfig.cache
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\appsettings.Development.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\appsettings.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\Data.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\Data.runtimeconfig.dev.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\Data.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\DotnetVideoStreaming.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\DotnetVideoStreaming.runtimeconfig.dev.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\DotnetVideoStreaming.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\Services.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\Services.runtimeconfig.dev.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\app\build\Services.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\bin\Debug\netcoreapp3.1\videos\SampleVideo.mp4
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\DotnetVideoStreaming\obj\Debug\netcoreapp3.1\DotnetVideoStreaming.csproj.CopyComplete

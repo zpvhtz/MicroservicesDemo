@@ -169,3 +169,15 @@ E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\De
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\Moq.dll
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\appsettings.Development.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\appsettings.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\Data.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\Data.runtimeconfig.dev.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\Data.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\DotnetVideoStreaming.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\DotnetVideoStreaming.runtimeconfig.dev.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\DotnetVideoStreaming.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\Services.deps.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\Services.runtimeconfig.dev.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\app\build\Services.runtimeconfig.json
+E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\XUnitTest\bin\Debug\netcoreapp3.1\videos\SampleVideo.mp4

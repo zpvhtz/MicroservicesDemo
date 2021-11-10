@@ -23,4 +23,3 @@ E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\n
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.pdb
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
-E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache

@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Services;
 using System;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace DotnetVideoStreaming.Controllers
 {
@@ -73,6 +75,60 @@ namespace DotnetVideoStreaming.Controllers
             }
             
             //return response;
+        }
+
+        [HttpGet("SendSoapMessage")]
+        public async Task<ActionResult> SendSoapMessage()
+        {
+            string url = "https://localhost:44371/ServiceAbcXyz.asmx";
+
+            //string xmlSOAP1 = @"<?xml version=""1.0"" encoding=""utf-8""?>
+            //    <soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">
+            //        <soap:Body>    
+            //            <TestCustomModel xmlns=""http://tempuri.org/"">
+            //              <s> This is Test String </s>
+            //            </TestCustomModel >
+            //        </soap:Body>
+            //    </soap:Envelope>";
+
+            string testString = "This is a test string";
+
+            string xmlSOAP = string.Format(@"<?xml version=""1.0"" encoding=""utf-8""?>
+                <soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">
+                    <soap:Body>    
+                        <TestCustomModel xmlns=""http://tempuri.org/"">
+                          <s> {0} </s>
+                        </TestCustomModel >
+                    </soap:Body>
+                </soap:Envelope>", testString);
+
+            try
+            {
+                using (HttpContent content = new StringContent(xmlSOAP, Encoding.UTF8, "text/xml"))
+                {
+                    using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, url))
+                    {
+                        HttpClient httpClient = new HttpClient();
+                        request.Headers.Add("SOAPAction", "");
+                        request.Content = content;
+                        httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/soap+xml"));
+                        using (HttpResponseMessage response = await httpClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead))
+                        {
+                            //response.EnsureSuccessStatusCode(); // throws an Exception if 404, 500, etc.
+                            var result = await response.Content.ReadAsStringAsync();
+                            return Ok(result);
+                        }
+                    }
+                }
+                //string result = await PostSOAPRequestAsync(url, xmlSOAP);
+                //Console.WriteLine(result);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            return Ok("");
         }
     }
 }
