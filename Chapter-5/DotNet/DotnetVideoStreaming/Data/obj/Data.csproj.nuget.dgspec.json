@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {}
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {}
   },
   "projects": {
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
+        "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\hieut\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\obj\\",
+        "outputPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

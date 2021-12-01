@@ -23,3 +23,16 @@ E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\n
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.dll
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.pdb
 E:\Demo\MicroservicesDemo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\bin\Debug\netcoreapp3.1\Data.dll
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\bin\Debug\netcoreapp3.1\Data.pdb
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.dll
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.pdb
+E:\Demo\Chapter-5\DotNet\DotnetVideoStreaming\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

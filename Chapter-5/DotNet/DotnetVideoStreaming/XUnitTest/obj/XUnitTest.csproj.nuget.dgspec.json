@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj": {}
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj": {}
   },
   "projects": {
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
+        "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\hieut\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\obj\\",
+        "outputPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -90,18 +90,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj": {
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj",
+        "projectUniqueName": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj",
         "projectName": "DotnetVideoStreaming",
-        "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj",
+        "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj",
         "packagesPath": "C:\\Users\\hieut\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\obj\\",
+        "outputPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -124,11 +124,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
-                "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj"
+              "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
+                "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj"
               },
-              "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj": {
-                "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj"
+              "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj": {
+                "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj"
               }
             }
           }
@@ -184,18 +184,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj": {
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj",
+        "projectUniqueName": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj",
+        "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\hieut\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\obj\\",
+        "outputPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -218,8 +218,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
-                "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj"
+              "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
+                "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj"
               }
             }
           }
@@ -268,18 +268,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj": {
+    "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj",
+        "projectUniqueName": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj",
         "projectName": "XUnitTest",
-        "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj",
+        "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\XUnitTest.csproj",
         "packagesPath": "C:\\Users\\hieut\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\obj\\",
+        "outputPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\XUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -302,14 +302,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
-                "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj"
+              "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj": {
+                "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Data\\Data.csproj"
               },
-              "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj": {
-                "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj"
+              "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj": {
+                "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\DotnetVideoStreaming\\DotnetVideoStreaming.csproj"
               },
-              "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj": {
-                "projectPath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj"
+              "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj": {
+                "projectPath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj"
               }
             }
           }
@@ -388,7 +388,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/bmIeley1gjuEzCqLMKSVyYA2kFZ/8TA+4yY9blRoe80h7ypm7oEAIHTyx9SSFCActyt50GRNE4W9SpmV58CjA==",
+  "dgSpecHash": "d/Wzpq6q8HNiCKmZUE5CDCQR9HVxTmKt1daEsocQT581Ks4F2IXKAAVA/fwFDDwWhDxRnaY+0FIFbw+a/rGAQg==",
   "success": true,
-  "projectFilePath": "E:\\Demo\\MicroservicesDemo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj",
+  "projectFilePath": "E:\\Demo\\Chapter-5\\DotNet\\DotnetVideoStreaming\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hieut\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\hieut\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
